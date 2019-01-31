@@ -15,5 +15,6 @@ namespace MVC_Login_Test.Models
         public string Genre { get; set; }
         [Column(TypeName ="Decimal(18,2)")]
         public decimal Price { get; set; }
+        //public string Rating { get; set; }
     }
 }
